@@ -1,0 +1,59 @@
+/* ---- Reset ---- */
+body {
+  background-color: #439FEF;
+  /* background-color: #232741; */
+}
+
+nav, section, footer {
+  background-color: #FFFFFFF0;
+  border-radius: 15px;
+  box-shadow: 0 9px 30px 5px rgba(0,0,0,0.5);
+  margin: 50px 20%;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: center;
+  margin: 50px 20% 75px 20%;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ---- Components ---- */
+.nav-title {
+  font-size: 2em;
+  margin: 10px auto;
+}
+
+.nav-social-list {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 0;
+}
+
+
+.nav-social-list li {
+  float: left;
+}
+
+.nav-social-icon, nav-social-icon:active, nav-social-icon:visited {
+  color: black;
+  font-size: 1.33em;
+  margin: auto 20px;
+}
+
+/* ---- particles.js container ---- */
+#particles {
+  background-color: #439FEF;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  }
