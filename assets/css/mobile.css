@@ -1,0 +1,15 @@
+/* ---- Components ---- */
+.project-title {
+  text-align: center;
+}
+
+.project-screenshot {
+  display: block;
+  float: unset;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.project-links, .project-tags {
+  padding: 10px 0;
+}

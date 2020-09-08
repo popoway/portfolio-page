@@ -1,0 +1,32 @@
+/* ---- Reset ---- */
+body {
+  background-color: #08365E;
+}
+
+header, section, footer {
+  background-color: #000000A0;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, a {
+  color: white;
+}
+
+/* ---- Components ---- */
+.nav-social-icon, nav-social-icon:active, nav-social-icon:visited {
+  color: white;
+}
+
+.project-links > li > a, .project-links > li > a:active, .project-links > li > a:visited {
+  background-color: #2A686F;
+  border-color: white;
+}
+
+.project-tags > li {
+  background-color: #355610;
+  color: white;
+}
+
+/* ---- particles.js container ---- */
+#particles {
+  background-color: #08365E;
+  }
