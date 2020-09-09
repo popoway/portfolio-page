@@ -13,6 +13,14 @@ function newTab() {
   for (a of anchor) {
     a.target = '_blank';
   }
+  const img = document.querySelectorAll('.project-screenshot');
+  var i;
+  for (i of img) {
+    i.addEventListener('click', (event) => {
+      window.open(event.target.src, '_blank');
+    });
+  }
+
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {

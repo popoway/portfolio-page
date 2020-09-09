@@ -26,7 +26,8 @@ footer {
 
 /* ---- Components ---- */
 .nav-title {
-  font-size: 2em;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 2.67em;
   margin: 10px auto;
   text-align: center;
 }
@@ -47,19 +48,37 @@ footer {
   margin: auto 20px;
 }
 
+.project-title {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 2em;
+}
+
+.project-date {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
 .project-screenshot {
-  max-width: 300px;
+  cursor: pointer;
   float: right;
+  max-width: 300px;
+}
+
+.project-description {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1.2em;
 }
 
 .project-links, .project-tags {
+  font-family: 'Roboto', Arial, sans-serif;
   list-style-type: none;
   padding: 0;
 }
 
 .project-links > li {
-  margin: 20px 10px;
   display: inline-block;
+  margin: 20px 10px;
 }
 
 .project-links > li > a, .project-links > li > a:active, .project-links > li > a:visited {
@@ -75,7 +94,7 @@ footer {
 }
 
 .project-links > li > a:focus, .project-links > li > a:hover {
-  background-color: #000;
+  background-color: #1C454A;
   border-radius: 15px;
   outline: none;
 }
@@ -86,6 +105,11 @@ footer {
   font-size: 0.8em;
   margin: 5px;
   padding: 5px 10px;
+}
+
+.dark-mode-indicator::after {
+  content: 'Dark Mode: Off';
+  font-size: 0.67em;
 }
 
 /* ---- particles.js container ---- */
