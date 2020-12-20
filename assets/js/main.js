@@ -27,3 +27,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   newTab();
   hack();
 });
+
+document.querySelector('.dark-mode-indicator').addEventListener('click', (event) => {
+  window.alert('To toggle dark mode, switch light/dark appearance settings on your supported system.');
+});
