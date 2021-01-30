@@ -4,23 +4,22 @@ particlesJS.load('particles', 'assets/js/particles.json', function() {
 
 function hack() {
   console.log('%cHi there!', 'color:white; background:#439FEF; font-size: 16pt');
-  console.log('%cLove to hack? Connect with me on LinkedIn: ming.fyi/linkedin or Email me at popoway@popoway.cloud', 'font-size: 12pt');
+  console.log('%cLove to hack? Connect with me on LinkedIn: ming.fyi/linkedin or Email me at hello@popoway.cloud', 'font-size: 12pt');
 }
 
 function newTab() {
   const anchor = document.querySelectorAll('a');
-  var a;
+  let a;
   for (a of anchor) {
     a.target = '_blank';
   }
   const img = document.querySelectorAll('.project-screenshot');
-  var i;
+  let i;
   for (i of img) {
     i.addEventListener('click', (event) => {
       window.open(event.target.src, '_blank');
     });
   }
-
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -29,5 +28,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.querySelector('.dark-mode-indicator').addEventListener('click', (event) => {
-  window.alert('To toggle dark mode, switch light/dark appearance settings on your supported system.');
+  window.alert('To toggle dark mode, switch light/dark appearance settings on your device.');
 });
