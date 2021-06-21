@@ -13,6 +13,7 @@ A hand-crafted portfolio page used to showcase some of the highlighted projects.
 - [Browsers Support](#browsers-support)
 - [Installation](#installation)
 - [Contributing](#contributing)
+- [Privacy](#privacy)
 - [License](#license)
 
 
@@ -20,7 +21,7 @@ A hand-crafted portfolio page used to showcase some of the highlighted projects.
 
 Inspired by multiple friends and questions encountered during job applications, this page is created in order to serve as a centralized destination to showcase some of the highlighted projects I have made in previous years.
 
-![Screen shot of home screen of portfolio-page](https://github.com/popoway/portfolio-page/blob/master/assets/img/portfolio-screenshot.png)
+![Screen shot of home screen of portfolio-page](./assets/img/portfolio-screenshot.png)
 
 It's live on [portfolio.ming.fyi](https://portfolio.ming.fyi/)
 
@@ -41,11 +42,17 @@ This project is currently under development and will be updated when necessary.
 2. `git clone https://github.com/popoway/portfolio-page.git` to get the code.
 3. You're all set!
 
-Note: When developing locally, use a local server (like the one supplied [here](https://github.com/popoway/portfolio-page/blob/master/server.js), run with `node server.js`) to avoid CORS errors.
+Note: When developing locally, use a local server (like the one supplied [here](https://github.com/popoway/portfolio-page/blob/master/server.js), run with `npm ci ; node server.js`) to avoid CORS errors.
 
 ## Contributing
 
-Feel free to open a pull request for your ideas on how this page can be improved. Additionally, PRs regarding bug or security exploits are welcome.
+Feel free to open a pull request for your ideas on how this page can be improved.
+
+To report a security vulnerability, please review the [Security Policy](https://github.com/popoway/portfolio-page/blob/main/SECURITY.md).
+
+## Privacy
+
+This page uses cookies from Cloudflare, Google and popowayCloud to deliver its services and to analyze traffic. popoway respects your privacy. Please review the [Privacy Policy](https://github.com/popoway/portfolio-page/blob/main/PRIVACY.md) for more information on how your data is handled.
 
 ## License
 
