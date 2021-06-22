@@ -48,11 +48,11 @@ Note: When developing locally, use a local server (like the one supplied [here](
 
 Feel free to open a pull request for your ideas on how this page can be improved.
 
-To report a security vulnerability, please review the [Security Policy](https://github.com/popoway/portfolio-page/blob/main/SECURITY.md).
+To report a security vulnerability, please review the [Security Policy](https://github.com/popoway/portfolio-page/blob/master/SECURITY.md).
 
 ## Privacy
 
-This page uses cookies from Cloudflare, Google and popowayCloud to deliver its services and to analyze traffic. popoway respects your privacy. Please review the [Privacy Policy](https://github.com/popoway/portfolio-page/blob/main/PRIVACY.md) for more information on how your data is handled.
+This page uses cookies from Cloudflare, Google and popowayCloud to deliver its services and to analyze traffic. popoway respects your privacy. Please review the [Privacy Policy](https://github.com/popoway/portfolio-page/blob/master/PRIVACY.md) for more information on how your data is handled.
 
 ## License
 
